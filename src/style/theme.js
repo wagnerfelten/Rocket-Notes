@@ -5,7 +5,7 @@ export default {
         BACKGROUND_700: "#3E3B47",
 
         WHITE: "#F4EDE8",
-        ORAGEN: "#FF9000",
+        ORANGE: "#FF9000",
         RED: "#FF002E",
         
         GRAY_100: "#999591",
