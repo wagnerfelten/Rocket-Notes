@@ -1,9 +1,12 @@
+import {Container} from "./styles";
+
+
 function App() {
 
   return (
-   <div>
+   <Container>
       <h1>Hello word</h1>    
-   </div>
+   </Container>
   )
 }
 
