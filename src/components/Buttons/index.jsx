@@ -1,9 +1,9 @@
 import { ContainerButton } from "./style";
 
-function Button() {
+function Button({title, loading = false, ...rest}) {
   return (
-    <ContainerButton type="button">
-        Enviar
+    <ContainerButton type="button" disabled={loading} {...rest}>
+        {loading ? "Carregando" : title}
     </ContainerButton>
   );
 }

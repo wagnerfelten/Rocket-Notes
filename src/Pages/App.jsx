@@ -5,7 +5,7 @@ function App() {
   return (
     <Container>
       <h1>Hello word</h1>
-      <Button />
+      <Button title="Enviar" loading />
     </Container>
   );
 }
