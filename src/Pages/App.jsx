@@ -1,10 +1,12 @@
 import { Container } from "./styles";
+import Header from "../components/Header";
 import Button  from "../components/Buttons";
+
 
 function App() {
   return (
     <Container>
-      <h1>Hello word</h1>
+      <Header />
       <Button title="Enviar" loading />
     </Container>
   );
