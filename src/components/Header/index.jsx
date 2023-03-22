@@ -1,4 +1,5 @@
-import {ContainerHeader, Profile} from "./style";
+import logoff from "../../img/sair.png";
+import {ContainerHeader, Profile, Logout} from "./style";
 
 function Header(){
     return(
@@ -10,6 +11,10 @@ function Header(){
                     <h4>Wagner Rodrigues</h4>
                 </div>
             </Profile>
+
+            <Logout>
+                <img src={logoff}></img>
+            </Logout>
         </ContainerHeader>
     );
 };

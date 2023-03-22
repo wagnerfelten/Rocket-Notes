@@ -15,7 +15,7 @@ export const ContainerHeader = styled.header `
 
     padding: 0 80px;
 
-    background-color: black;
+
 `;
 
 export const Profile = styled.div`
@@ -32,4 +32,14 @@ export const Profile = styled.div`
     > h3{
         color:  ${({theme}) => theme.COLORS.GRAY_100};
     }
+`;
+
+export const Logout = styled.div`
+    display: flex;
+    align-items: center;
+    
+    > img{
+        width: 60px;
+    }
+    
 `;
