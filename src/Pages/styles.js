@@ -22,14 +22,3 @@ export const Links = styled.ul`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `;
-
-export const Button1 = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
-
-  > button {
-    width: 100px;
-    height: 40px;
-  }
-`;

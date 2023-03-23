@@ -1,7 +1,8 @@
-import { Container, Links, Button1 } from "./styles";
+import { Container, Links } from "./styles";
 import Header from "../components/Header";
 import Button from "../components/Buttons";
 import { Section } from "../components/Section";
+import Tags from "../components/Tag";
 
 function App() {
   return (
@@ -23,10 +24,8 @@ function App() {
       </Section>
 
       <Section title="Marcadores">
-        <Button1>
-          <Button title="express"></Button>
-          <Button title="nodejs"></Button>
-        </Button1>
+        <Tags title="express" />
+        <Tags title="nodejs" />
       </Section>
 
       <Button title="Enviar" loading />
