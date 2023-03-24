@@ -3,11 +3,13 @@ import Header from "../components/Header";
 import Button from "../components/Buttons";
 import { Section } from "../components/Section";
 import Tags from "../components/Tag";
+import{ButtonText} from "../components/ButtonText";
 
 function App() {
   return (
     <Container>
       <Header />
+      <ButtonText title="Excluir Nota" />
 
       <Section title="Links úteis">
         <Links>
