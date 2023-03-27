@@ -6,6 +6,4 @@ export const ContainerText = styled.button`
    
     font-size: 18px;
     border: none;
-    text-align: right;
-    
 `;

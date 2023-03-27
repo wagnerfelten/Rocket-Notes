@@ -9,6 +9,7 @@ export const Container = styled.div`
   grid-template-areas:
     "header"
     "content";
+
 `;
 
 export const Links = styled.ul`
@@ -20,5 +21,27 @@ export const Links = styled.ul`
   }
   a {
     color: ${({ theme }) => theme.COLORS.WHITE};
+  }
+`;
+
+export const Content = styled.div`
+  width: 560px;
+  margin: 0 auto;
+  margin-top: 48px;
+
+
+> button:first-child{
+  align-self: end;
+}
+
+
+> h1{
+    margin-top: 24px;
+  }
+
+  p{
+    margin-top: 10px;
+    text-align: justify;
+    font-size: 16px;
   }
 `;
