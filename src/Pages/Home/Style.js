@@ -17,3 +17,43 @@ export const ContainerHome = styled.div`
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_800};
 `;
 
+export const Brand = styled.div`
+    grid-area: brand;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: ${({theme}) => theme.COLORS.BACKGROUND_700};
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+
+    > h1{
+        font-size: 24px;
+        color: ${({theme}) => theme.COLORS.ORANGE};
+    }
+
+`;
+
+
+export const Content = styled.div`
+
+`;
+
+
+export const Menu = styled.div`
+
+`;
+
+
+export const Search = styled.div`
+
+`;
+
+
+export const Newnotes = styled.div`
+
+`;
+
+

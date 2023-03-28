@@ -1,6 +1,6 @@
 import { ContainerText } from "./style";
 
-export function ButtonText({title, ...rest}){
+export default function ButtonText({title, ...rest}){
     return(
         <ContainerText type="button" {...rest}>
             {title}
