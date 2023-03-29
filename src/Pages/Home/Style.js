@@ -38,12 +38,20 @@ export const Brand = styled.div`
 
 
 export const Content = styled.div`
-
+    
 `;
 
 
-export const Menu = styled.div`
+export const Menu = styled.ul`
+    grid-area: menu;
+    height: 950px;
+    padding: 64px;
+    list-style: none;
+    background-color: ${({theme}) => theme.COLORS.BACKGROUND_900};
 
+    > li{
+        margin-bottom: 24px;
+    }
 `;
 
 
@@ -53,7 +61,16 @@ export const Search = styled.div`
 
 
 export const Newnotes = styled.div`
+    grid-area: newnote;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 
+    background-color: ${({theme}) => theme.COLORS.ORANGE};
+    color: ${({theme}) => theme.COLORS.BACKGROUND_900};
+    font-size: 18px;
+    height: 90px;
 `;
 
 
