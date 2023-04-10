@@ -2,6 +2,7 @@ import { ContainerHome, Brand, Menu, Search, Content, Newnotes } from "./Style";
 import sinalMais from "../../img/mais.svg"
 import Header from "../../components/Header";
 import ButtonText from "../../components/ButtonText";
+import Input from "../../components/Input";
 
 function Home() {
   return (
@@ -24,7 +25,9 @@ function Home() {
         </li>
       </Menu>
 
-      <Search></Search>
+      <Search>
+        <Input placeholder="Pesquisar pelo titúlo"/>
+      </Search>
 
       <Content></Content>
 
