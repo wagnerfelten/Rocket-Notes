@@ -1,6 +1,6 @@
 import { ContainerHome, Brand, Menu, Search, Content, Newnotes } from "./Style";
 
-import sinalMais from "../../img/mais.svg"
+import sinalMais from "../../img/mais.svg";
 
 import Header from "../../components/Header";
 import ButtonText from "../../components/ButtonText";
@@ -19,7 +19,7 @@ function Home() {
 
       <Menu>
         <li>
-          <ButtonText title="Todos" isActive/>
+          <ButtonText title="Todos" isActive />
         </li>
         <li>
           <ButtonText title="NodeJs" />
@@ -30,19 +30,30 @@ function Home() {
       </Menu>
 
       <Search>
-        <Input placeholder="Pesquisar pelo titúlo"/>
+        <Input placeholder="Pesquisar pelo titúlo" />
       </Search>
 
       <Content>
         <Section title="Minhas notas">
-            <Notes 
-              data = {{
-                title: "React", tags: [
-                  {id: '1', name: 'react'},
-                  {id: '2', name: 'Node'}
-                ]
-              }}
-            />
+          <Notes
+            data={{
+              title: "React",
+              tags: [
+                { id: "1", name: "react" },
+                { id: "2", name: "Node" },
+              ],
+            }}
+          />
+
+          <Notes
+            data={{
+              title: "Node",
+              tags: [
+                { id: "1", name: "API" },
+                { id: "2", name: "Express" },
+              ],
+            }}
+          />
         </Section>
       </Content>
 
