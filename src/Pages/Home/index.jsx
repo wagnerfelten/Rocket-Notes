@@ -1,8 +1,12 @@
 import { ContainerHome, Brand, Menu, Search, Content, Newnotes } from "./Style";
+
 import sinalMais from "../../img/mais.svg"
+
 import Header from "../../components/Header";
 import ButtonText from "../../components/ButtonText";
 import Input from "../../components/Input";
+import Section from "../../components/Section";
+import Notes from "../../components/Notes";
 
 function Home() {
   return (
@@ -29,7 +33,18 @@ function Home() {
         <Input placeholder="Pesquisar pelo titúlo"/>
       </Search>
 
-      <Content></Content>
+      <Content>
+        <Section title="Minhas notas">
+            <Notes 
+              data = {{
+                title: "React", tags: [
+                  {id: '1', name: 'react'},
+                  {id: '2', name: 'Node'}
+                ]
+              }}
+            />
+        </Section>
+      </Content>
 
       <Newnotes>
         <img src={sinalMais} />
