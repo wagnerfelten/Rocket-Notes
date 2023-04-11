@@ -1,8 +1,8 @@
  import { ContainerTags } from "./style";
  
- function Tags({title}){
+ function Tags({title, ...rest}){
     return(
-        <ContainerTags>
+        <ContainerTags {...rest}>
             {title}
         </ContainerTags>
     );
