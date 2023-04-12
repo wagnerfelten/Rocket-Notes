@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import Home from "./Pages/Singln";
+import Home from "./Pages/SingUp";
 
 import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./style/global";
