@@ -28,6 +28,10 @@ export const Form = styled.form `
     
 
     margin: 0 auto;
+
+    > div:nth-child(4){
+        margin-top: 24px;
+   }
 `;
 
 export const Avatar = styled.div `
@@ -38,9 +42,7 @@ export const Avatar = styled.div `
    margin-top: -80px;
    position: relative;
 
-   > div:nth-child(3){
-        margin-top: 24px;
-   }
+  
 
    > img{
     width: 150px;
