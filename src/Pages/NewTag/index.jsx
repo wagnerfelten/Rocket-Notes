@@ -1,10 +1,11 @@
 import { Container, Form } from "./styled";
 
-import Textarea from "../../components/Textarea";
+import Textarea from "../../components/textarea";
 import NoteItem from "../../components/NoteItem";
 import Section from "../../components/Section";
 import Button from "../../components/Buttons";
 import Header from "../../components/Header";
+import Input from "../../components/Input";
 
 
 export default function NewTag() {
