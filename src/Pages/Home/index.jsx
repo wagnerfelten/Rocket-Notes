@@ -1,4 +1,5 @@
 import { ContainerHome, Brand, Menu, Search, Content, Newnotes } from "./Style";
+import { Link } from "react-router-dom";
 
 import sinalMais from "../../img/mais.svg";
 
@@ -59,7 +60,9 @@ function Home() {
 
       <Newnotes>
         <img src={sinalMais} />
-        <h3>Criar notas</h3>
+        <Link to="/newTags">
+          <h3>Criar notas</h3>
+        </Link>
       </Newnotes>
     </ContainerHome>
   );

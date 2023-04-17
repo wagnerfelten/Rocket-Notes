@@ -74,6 +74,10 @@ export const Newnotes = styled.div`
     color: ${({theme}) => theme.COLORS.BACKGROUND_900};
     font-size: 18px;
     height: 90px;
+
+    > a{
+        color: black;
+    }
 `;
 
 

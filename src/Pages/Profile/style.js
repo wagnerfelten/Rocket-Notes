@@ -15,6 +15,7 @@ export const Container = styled.div `
     
         svg {
             font-size: 34px;
+            color: white;
         }
     }
 

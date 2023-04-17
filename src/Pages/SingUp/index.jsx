@@ -1,6 +1,6 @@
 import {Container, Form, BackgroundImg } from "./style";
 import {FiMail, FiLock, FiUser} from "react-icons/fi";
-
+import { Link } from "react-router-dom";
 import Input from "../../components/Input";
 import Buttons from "../../components/Buttons"
 
@@ -34,7 +34,7 @@ export default function Singln() {
 
                 <Buttons title="Cadastrar"/>
 
-                <a href="#">Voltar Login</a>
+                <Link to="/">Voltar Login</Link>
             </Form>
 
             <BackgroundImg />
